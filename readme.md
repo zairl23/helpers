@@ -11,7 +11,7 @@ I want to learn writing c program. Also the extension can be used in normal php 
 
 ### Functions
 
-1. array_add
+#### array_add
 
 The array_add function adds a given key / value pair to the array if the given key doesn't already exist in the array:
 
@@ -34,7 +34,7 @@ The extension need php7, php7-devel.
 
 ```
 
-Add ` extesion = helpers.so` in php.ini file.
+Add ` extension = helpers.so` in php.ini file.
 
 ### Learning links
 
