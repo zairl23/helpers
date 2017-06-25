@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("helpers", "for helpers support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("helpers", "enable helpers support", "no");
+
+if (PHP_HELPERS != "no") {
+	EXTENSION("helpers", "helpers.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
+
