@@ -36,4 +36,8 @@ The extension need php7, php7-devel.
 
 Add ` extesion = helpers.so` in php.ini file.
 
- 
+### Learning links
+
+1. http://blog.csdn.net/fengye245/article/details/7870501/
+
+1. http://blog.csdn.net/tonysz126/article/details/6993665  

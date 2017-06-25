@@ -43,7 +43,6 @@ PHP_INI_BEGIN()
 PHP_INI_END()
 */
 /* }}} */
-// http://blog.csdn.net/fengye245/article/details/7870501/
 PHP_FUNCTION(array_add)
 {
 	zval *arr;
